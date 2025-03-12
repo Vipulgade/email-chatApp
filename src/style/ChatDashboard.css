@@ -1,0 +1,60 @@
+.chat-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-menu {
+    background: blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-name {
+    color: white;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .active {
+    background: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+  
+  .logout-btn {
+    background: red;
+    color: white;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .message-list {
+    background: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .message-item {
+    padding: 8px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .send-mail input, .send-mail textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
